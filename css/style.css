@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: antiquewhite; */
+    background-image: url(/images/eyeglasses-8227429_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+}
+
+.quiz-container{
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 black;
+    width: 500px;
+    height: 350px;
+    /* background-color: rgb(212, 255, 206); */
+    background-image: url(/images/plant-2004483_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: all 2s ease-in-out;
+}
+.quiz-container:hover{
+    background-image: url(/images/feather-3010848_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#quiz-question {
+    font-size: 1.5rem;
+    padding: 20px; 
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin-left: 30px;
+}
+
+li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+li:hover{
+   background-color: rgb(83, 119, 150);
+}
+
+#submit {
+    background-color: #F1C40E;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 7.5px;
+    border-radius: 0 0 10px 10px;
+}
+
+#submit:hover {
+    background-color: #008829;
+    cursor: pointer;
+}
